@@ -2,6 +2,7 @@ name: Deploy website
 on:
   create:
     branches:
+      - "*"
 
 jobs:
   announce:
