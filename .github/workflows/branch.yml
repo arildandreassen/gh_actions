@@ -1,10 +1,11 @@
 name: Deploy website 
 on:
   create:
+    branches:
 
 jobs:
   announce:
     runs-on: ubuntu-latest
     steps:
       - name: Hello World
-        run: echo "Created new branch"
+        run: echo "Created new branch again"
